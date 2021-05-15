@@ -7,7 +7,5 @@
 </script>
 
 {#each dates as item}
-	<div class="date">
-		<Datetime {item} i="1"/>
-	</div>
+	<Datetime {item} i="1"/>
 {/each}
