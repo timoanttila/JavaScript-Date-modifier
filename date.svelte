@@ -14,4 +14,8 @@
 	date = !i ? date.split(' ')[0] : date.replaceAll(' klo ', ' ');
 </script>
 
-{date}
+<div class="date">{date}</div>
+
+<style>
+	text-transform: capitalize;
+</style>
